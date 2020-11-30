@@ -128,6 +128,6 @@ type IR.txt
 	echo wmic process list full ******************************************************************************************
 	wmic process list full
 	
-) > "%COMPUTERNAME% %DATE:~4,2%%DATE:~7,2%%DATE:~-4% %time::=%".csv
+) > C:\temp\"%COMPUTERNAME% %DATE:~4,2%%DATE:~7,2%%DATE:~-4% %time::=%"_BATCH_IR.csv
 
 exit
